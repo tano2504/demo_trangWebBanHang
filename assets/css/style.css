@@ -1,0 +1,185 @@
+.header {
+    margin-top: 25px
+}
+
+.header-title h1 {
+    margin-left: 7%;
+}
+.header-info {
+    margin-left: 7%;
+}
+.img-logo {
+    margin-left: 25px;
+}
+h2.h2-font {
+   font-size: 25px; word-spacing: 3px; text-align: center; padding:  15px 0; margin: 10px 12px 10px 12px; background-color:rgb(56, 55, 55);font-weight: 400; text-transform:uppercase; color:#fff; 
+}
+/*  */
+table,
+td,
+th {
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+table.table-res-mobile {
+    display: none;
+}
+
+table {
+    text-align: right;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: auto;
+}
+
+th {
+    color: #fff;
+    background-color: rgb(82, 109, 229);
+    text-align: center;
+}
+
+tr:hover {
+    background-color: rgb(235, 233, 233);
+}
+
+tr:hover.row4 {
+    background-color: #fff;
+}
+
+th,
+td {
+    padding: 3px 5px;
+}
+
+th.th-1 {
+    width: 14%;
+}
+
+th.th-3 {
+    width: 15%;
+}
+
+th.th-6 {
+    width: 4%;
+}
+
+/* .modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background : rgba (0, 0, 0, 0.4);
+} */
+
+
+/* mobile:width < 740px */
+@media only screen and (max-width: 739px) {
+
+    table.table-res-mobile {
+        display: block;
+        width: 100%;
+        border: none;
+        /* table-layout:fixed; */
+        margin-right: -10px;
+        text-align: center
+    }
+    table.table-res-mobile tbody {
+        width: 97%;
+        display: table;
+    }
+    
+    table.table-res {
+        display: none;
+    }
+    h3.text-white {
+        font-size: 22px;
+    }
+    h2.h2-font {
+        font-size: 15px !important;
+    }
+    
+    .img-logo {
+        margin-left: -2px;
+    }
+
+    h1.header-title {
+        font-size: 28px;
+    }
+
+    .header-title h1 {
+        margin-left: 4%;
+    }
+
+    .col-12.col-md-2.col-xl-2 ,
+    .info-gh {
+        text-align: center;
+    }
+    .col-12.col-md-2.col-xl-2, .info-gh {
+
+        font-size: 25px;
+    }
+    .header-title.col-12.col-md-10.col-xl-10.text-center {
+        margin-top: 15px;
+    }
+
+    .header-info {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .div-yeucau.col-12 {
+        padding-right: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .header-title h1 {
+        margin-left: 0%;
+    }
+    .footer {
+        position: relative;
+        bottom: -22px!important;
+    }
+}
+
+
+
+/* tablet: width >=740px and width < 1024px */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+
+    /* .container {
+        margin: 25px 0 0 25px
+    } */
+    .none {
+        display: none;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .form-dk {
+        height: 70%;
+    }
+
+    .row-form {
+        font-size: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text {
+        position: relative;
+        top: 12px;
+    }
+
+    .lable-form {
+        flex-grow: 1;
+        width: 60%;
+    }
+
+    .input-form {
+        flex-grow: 1;
+    }
+}

@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Giỏ Hàng</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-2 col-xl-2">
+                <img src="./assets/images/PET.png" alt="" class="img-logo img-fluid">
+            </div>
+            <div class="header-title col-12 col-md-10 col-xl-10 text-center">
+                <h1 style="word-spacing: 1px ;color: #007bff;">Cửa hàng Thanh Nhơn</h1>
+                <div class="header-info">
+                    <p style="margin: 0;">
+                        <i style="margin: 0 5px;" class="fa fa-minus" aria-hidden="true"></i>Mở cửa 24/7
+                    </p>
+                    <p style="margin: 0;">
+                        <i class="fa fa-minus" aria-hidden="true"></i> <i style="margin: 0 5px" class="fa fa-home"
+                            aria-hidden="true"></i>:1 Võ Văn Ngân P.Linh Chiểu Tp.Thủ Đức Tp.Hồ Chí Minh
+                    </p>
+                    <p style="margin: 0;">
+                        <i style="margin: 0 5px;" class="fa fa-minus" aria-hidden="true"></i> <i style="margin: 0 5px"
+                            class="fa fa-envelope-o" aria-hidden="true"></i>: thanhnhonnguyennguyen@gmail.com - <i
+                            style="margin: 0 5px" class="fa fa-phone" aria-hidden="true"></i> : <span
+                            style="color: #007bff;">098 430 2613</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- content -->
+    <div style=" padding-left: 6px;" class="div-yeucau container-fluid">
+        <div style=" margin-bottom:5px" class="row">
+            <div style="padding-left: 10px; margin-top: 20px;" class="div-yeucau col-12">
+                <a href="#" class="btn btn-success">Đồng Ý</a>
+                <a href="#" class="btn btn-danger">Xóa Đơn Hàng</a>
+                <a href="#" class="btn btn-danger">Mua Tiếp</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2 class="h2-font">
+            Giỏ Hàng Của Bạn
+        </h2>
+    </div>
+    <div class="container-fluid">
+        <div style="padding-left: 9px;" class="row">
+            <div style=" padding-left: 0;" class="col-12 col-md-7 col-xl-8">
+                <table class="table-res" style="margin-left: 3px;">
+                    <tr class="row-1" style="color: #fff;">
+                        <th class="th-1 ">Hình</th>
+                        <th style="">Tên</th>
+                        <th class="th-2">Số Lượng</th>
+                        <th style="">Đơn Gía Bán</th>
+                        <th style="">Thành Tiền</th>
+                        <th class="th-6"></th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img width="100%" src="./assets/images/./ANDROID_23.png" alt="">
+                        </td>
+                        <td style="text-align: left;">SamSung Note8</td>
+                        <td>
+                            <!-- <button style="border:1px solid #ccc; background-color: #fff;
+                            padding: 0px 30px" type="text" class="">1</button> -->
+                            <input style=" text-align: right; border:1px solid #ccc;   outline:none;
+                            padding: 0px 30px" type="text" id="samsung" name="fname" size="2" maxlength="2"
+                                placeholder="nhập số lượng">
+                        </td>
+                        <td>9.240.000<sup>đ</sup></td>
+                        <td>
+                            <input class="bg-transparent" style="width: 100%; display: block; text-align: right; border:none; background-color: #fff;outline:none;
+                            padding: 0px 10px" type="text" id="tongsamsung" name="fname" size="2" maxlength="2"
+                                readonly>
+                        </td>
+                        <td style=" text-align:center"> <a style="color: red; text-align:center" href="#"><i
+                                    class="fa fa-trash-o" aria-hidden="true"></i></a> </td>
+                    </tr>
+                    <tr>
+                        <td><img width="100%" src="./assets/images/./IPHONE_4.png" alt=""></td>
+                        <td style="text-align: left;">Iphone 6s</td>
+                        <td>
+                            <input placeholder="Nhập số lượng" style="text-align: right; border:1px solid #ccc; background-color: #fff;   outline:none; 
+                             padding: 0px 30px" type="text" id="iphone" name="fname" size="2" maxlength="2">
+                        </td>
+                        <td>8.600.000<sup>đ</sup></td>
+                        <td>
+                            <input btn-block class="bg-transparent" style="border:none; background-color: #fff;  outline:none;
+                            padding: 0px 10px; width: 100%; text-align: right; " type="text" id="tongiphone"
+                                name="fname" size="2" maxlength="20">
+                        </td>
+                        <td style=" text-align:center"> <a style="color: red; text-align:center" href="#"><i
+                                    class="fa fa-trash-o" aria-hidden="true"></i></a> </td>
+                    </tr>
+                    <tr class="row4">
+                        <td colspan="6">
+                            <button style="border:none; color:red; background-color: #fff;
+                            padding: 0px 30px" type="text" class="" onclick="thanhtoan()">Tổng Thành Tiền</button>
+                            <input style="outline:none;" type="text" name="" id="tongtien" readonly size="11"
+                                class="bg-transparent border-0 text-center" maxlength="20">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <table class="table-res-mobile">
+                <tbody>
+
+                    <tr>
+                        <th>Hình</th>
+                        <td>
+                            <img style="width:30%" src="./assets/images/ANDROID_14.png" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Tên</th>
+                        <td>SamSung note8</td>
+                    </tr>
+                    <tr>
+                        <th>Số lượng</th>
+                        <td>
+                            <input style="text-align: center;" placeholder="nhập số lượng" type="text" maxlength="2" name="" id="samsung">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Đơn giá bán</th>
+                        <td>8.686.866<sup>đ</sup></td>
+                    </tr>
+                    <tr>
+                        <th>Thành tiền</th>
+                        <td>
+                            <input class="bg-transparent" style="width: 100%; display: block; text-align: right; border:none; background-color: #fff;outline:none;
+                        padding: 0px 10px" type="text" id="tongsamsung" name="fname" size="2" maxlength="2" readonly>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button style="border:none; color:red; background-color: #fff;
+                        padding: 0px 30px" type="text" class="" onclick="thanhtoan()">Tổng Thành Tiền :</button>
+                            <input style="outline:none;" type="text" name="" id="tongtien" readonly size="11"
+                                class="bg-transparent border-0 text-center" maxlength="20">
+                            <a style="color: red; text-align:center" href="#"><i class="fa fa-trash-o"
+                                    aria-hidden="true"></i></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="padding-left: 2px;" class="col-12 col-md-5 col-xl-4">
+                <h2 class="info-gh" style="color: rgb(113, 153, 247);">Thông Tin Giao Hàng</h2>
+                <form class="form-dk">
+                    <div style=" border-radius: 5px; border-bottom: 1px solid rgb(248, 159, 50);"
+                        class="form-group row-form ">
+                        <label class="lable-form" style="margin-bottom: 0; font-weight:500; font-size:15px"
+                            for="hoten"><span class="text">Họ tên</span></label>
+                        <input style="border: none;" type="text" class="form-control input-form" id="hoten">
+                    </div>
+                    <div style=" border-radius: 5px; border-bottom: 1px solid rgb(248, 159, 50);"
+                        class="form-group row-form ">
+                        <label class="lable-form" style="font-size: 15px; font-weight:500; font-size:15px"
+                            for="email"><span class="text">Email</span></label>
+                        <input style="border: none;" type="email" class="form-control input-form" id="email">
+                    </div>
+                    <div style=" border-radius: 5px; border-bottom: 1px solid rgb(248, 159, 50);"
+                        class="form-group row-form ">
+                        <label class="lable-form" style="font-weight: 700; font-weight:500; font-size:15px"
+                            for="text"><span class="text">Điện thoại</span></label>
+                        <input style="border: none;" type="text" class="form-control input-form" id="dt">
+                    </div>
+                    <div style=" border-radius: 5px; border-bottom: 1px solid rgb(248, 159, 50);"
+                        class="form-group row-form ">
+                        <label class="lable-form" style="font-weight: 700; font-weight:500; font-size:15px"
+                            for="text"><span class="text">Địa Chỉ Giao Hàng</span></label>
+                        <input style="border: none;" type="text" class="form-control input-form" id="diachi">
+                    </div>
+                    <div style=" border-radius: 5px; border-bottom: 1px solid rgb(248, 159, 50);"
+                        class="form-group row-form ">
+                        <label class="lable-form" style="font-weight: 700; font-weight:500; font-size:15px"
+                            for="text"><span class="text">Ngày giao hàng</span></label>
+                        <input style="border: none;" type="date" class="form-control input-form" id="date">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- footer -->
+    <div class="footer container-fluid">
+        <div class="row">
+            <div style=" background-color: rgb(54, 53, 53); text-align: center; font-size: 13px; padding: 10px 0;"
+                class="col-12 col-md-12 col-xl-12">
+                <p style="margin-bottom: 0; color: rgb(131, 131, 131);"> &copy; 2022 TANO.co</p>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+
+    </div>
+    <!-- js thanh toan -->
+    <script>
+        function thanhtoan() {
+            var a = document.getElementById("samsung").value;
+            var b = document.getElementById("iphone").value;
+
+            if (a == "") {
+                alert('Nhập số lượng cần mua !');
+                document.getElementById("ipad").focus;
+                return false;
+            }
+            //if a recieves texts or strings:
+            // if (isNaN(a)) {
+            //     alert('Nội dung không đúng! Nhập số lượng iPad cần mua.');
+            //     document.getElementById("ipad").select;
+            //     return false;
+            // }
+            //if b has no info:
+            if (b == "") {
+                alert('Nhập số lượng cần mua !');
+                document.getElementById("galaxy").focus;
+                return false;
+            }
+            //if b receives texts or strings :
+            // if (isNaN(b)) {
+            //     alert('Nội dung không đúng! Nhập số lượng Tablet cần mua.');
+            //     document.getElementById("galaxy").select;
+            //     return false;
+            // }
+            //calculation & return value:
+            var c = Number(a) * 9240000;
+            var d = Number(b) * 8600000;
+            var e = Number(c) + Number(d);
+            document.getElementById("tongsamsung").value = c;
+            document.getElementById("tongiphone").value = d;
+            document.getElementById("tongtien").value = e;
+        }
+    </script>
+    <!-- <div class="modal" style="background :rgba(255, 255, 255, 0.4);" >
+            <div class="modal-container">
+                <div class="modal-close">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+                <header class="modal-header">
+                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                    Thông Tin Khách Hàng
+                </header>
+                <div class="modal-body">
+                    <label for="" class="modal-label">
+                        Họ tên
+                    </label>
+                    <input type="text" class="modal-input" placeholder="Nhập họ tên">
+                    <label for="" class="modal-label">
+                        Họ tên
+                    </label>
+                    <input type="text" class="modal-input" placeholder="Nhập họ tên">
+                    <label for="" class="modal-label">
+                        Họ tên
+                    </label>
+                    <input type="text" class="modal-input" placeholder="Nhập họ tên">
+                   
+                </div>
+            </div>
+    </div> -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

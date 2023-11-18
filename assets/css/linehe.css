@@ -1,0 +1,194 @@
+.header-info {
+    color: rgb(93, 91, 91);
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    margin-left: 35px;
+}
+
+.header {
+    margin-top: 25px
+}
+
+.header-title h1 {
+    margin-left: 4%
+}
+
+.img-logo {
+    margin-left: 25px;
+}
+
+.h2-lienhe {
+    text-align: center;
+    padding: 6px 0;
+    margin: 0 3px;
+    border: 1.5px solid #dc3545;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #dc3545;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+.row-khung {
+    margin-bottom: 5px"
+
+}
+
+.row-btn {
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.row-info-map {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.btn-boqua.col-6.col-md-6.col-xl-6 {
+    position: relative;
+    left: -43%;
+}
+
+.row-btn.row {
+    margin-bottom: 5px;
+}
+
+/* mobile:width < 740px */
+@media only screen and (max-width: 739px) {
+    h3.text-white {
+        font-size: 22px;
+    }
+
+    .header h1 {
+        word-spacing: 0;
+    }
+
+    .form-info-lh {
+        padding: 0;
+    }
+
+    .header-title {
+        margin-top: 15px;
+    }
+
+    .header-title h1 {
+        margin-left: 7%;
+    }
+
+    h1.header-title {
+        font-size: 28px;
+    }
+
+    .img-logo,
+    .header-title>h1 {
+        margin-left: 0;
+    }
+
+    div.container-fluid {
+        margin: 25px 0;
+        text-align: center;
+    }
+
+    .header-info {
+        font-size: 12px;
+        margin-top: 15px;
+        margin-left: 0 !important;
+    }
+    .btn-dongy.col-6.col-md-6.col-xl-6 {
+        max-width: 54%;
+    }
+
+    .h2-lienhe {
+        margin-left: -30% !important;
+        margin-top: 4px !important;
+        font-size: 15px !important;
+    }
+
+    .row-btn.row {
+        margin-top: 5px ;
+    }
+
+
+    .btn-dongy {
+        position: absolute;
+        left: 38%;
+    }
+
+    .btn-boqua {
+        position: absolute !important;
+        left: 2% !important;
+    }
+
+    .text-btn {
+        font-size: 12px;
+    }
+
+    .h3-1 {
+        margin-top: 3px;
+    }
+
+    h3.text-white {
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer {
+        position: relative;
+        bottom: -22px;
+    }
+    .map.col-12.col-md-5.col-xl-5 {
+        /* left: -7px; */
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;}
+}
+
+
+/*tablet: width >=740px and width < 1024px */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .header-logo {
+        margin-top: 15px;
+    }
+
+    .header-title {
+        margin-top: 15px;
+    }
+
+    h2.h2-lienhe {
+        left: 0%;
+        position: relative;
+    }
+
+    .btn-boqua.col-6.col-md-6.col-xl-6 {
+        position: relative;
+        left: -40px;
+
+    }
+
+    .row-btn {
+        margin-top: 1px;
+    }
+
+    h2.h2-lienhe {
+        font-size: 20px;
+    }
+
+    form {
+        padding-left: 3px
+    }
+
+    .row-mgl {
+        margin-left: 0;
+    }
+
+    .row-khung.row {
+        margin-top: 15px;
+    }
+
+    .h2-lienhe {
+        margin-left: -17%;
+    }
+}
+

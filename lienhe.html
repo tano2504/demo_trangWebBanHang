@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>lienhe</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.ckeditor.com/4.18.0/standard/ckeditor.js"></script>
+    <link rel="stylesheet" href="./assets/css/linehe.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-2 col-xl-2">
+                <img src="./assets/images/PET.png" alt="" class="img-logo img-fluid">
+            </div>
+            <div class="header-title col-12 col-md-10 col-xl-10 text-center">
+                <h1 style="word-spacing: 1px ;color: #007bff;">Cửa hàng Thanh Nhơn</h1>
+                <div class="header-info">
+                    <p style="margin: 0;">
+                        <i style="margin: 0 5px;" class="fa fa-minus" aria-hidden="true"></i>Mở cửa 24/7
+                    </p>
+                    <p style="margin: 0;">
+                        <i class="fa fa-minus" aria-hidden="true"></i> <i style="margin: 0 5px" class="fa fa-home"
+                            aria-hidden="true"></i>:1 Võ Văn Ngân P.Linh Chiểu Tp.Thủ Đức Tp.Hồ Chí Minh
+                    </p>
+                    <p style="margin: 0;">
+                        <i style="margin: 0 5px;" class="fa fa-minus" aria-hidden="true"></i> <i style="margin: 0 5px"
+                            class="fa fa-envelope-o" aria-hidden="true"></i>: thanhnhonnguyennguyen@gmail.com - <i
+                            style="margin: 0 5px" class="fa fa-phone" aria-hidden="true"></i> : <span
+                            style="color: #007bff;">098 430 2613</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- content -->
+    <div class="khung-lh container-fluid">
+        <div  class="row-khung row">
+            <div class="khung-btn col-6 col-md-4 col-xl-12">
+                <div  class="row-btn row">
+                    <div class="btn-dongy col-6 col-md-6 col-xl-6">
+                        <a href="#" class="text-btn btn btn-success">Đồng ý</a>
+                    </div>
+                    <div class="btn-boqua col-6 col-md-6 col-xl-6">
+                        <a href="#" class="text-btn btn btn-danger">Bỏ qua</a>
+                    </div>
+                </div>
+            </div>
+            <div class="h2-lh col-6 col-md-8 col-xl-12">
+                <h2 class="h2-lienhe" >
+                    liên hệ với chúng tôi
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="form-info container-fluid">
+        <div class="row-info-map row-mgl row">
+            <div style="padding-left: 2px;" class="form-info-lh col-12 col-md-7 col-xl-7">
+                <form>
+                    <div style=" border-radius: 5px; border-bottom: 1px solid rgb(248, 159, 50);" class="form-group">
+                        <label style="margin-bottom: 0; font-weight:700; font-size:15px" for="hoten">Họ tên</label>
+                        <input style="border: none;" type="email" class="form-control" placeholder="Nhập họ tên"
+                            id="hoten">
+                    </div>
+                    <div style=" border-radius: 5px; border-bottom: 1px solid rgb(248, 159, 50);" class="form-group">
+                        <label style="font-size: 15px; font-weight:700; font-size:15px" for="email">Email</label>
+                        <input style="border: none;" type="password" class="form-control" placeholder="Nhập Email"
+                            id="email">
+                    </div>
+                    <div style=" border-radius: 5px; border-bottom: 1px solid rgb(248, 159, 50);" class="form-group">
+                        <label style="font-weight: 700; font-weight:700; font-size:15px" for="text">Tiêu đề</label>
+                        <input style="border: none;" type="password" class="form-control" placeholder="Nhập tiêu đề"
+                            id="text">
+                    </div>
+                </form>
+                <span style="font-weight: 700; font-size:15px">Nội dung</span>
+                <div style="border: 1px solid rgb(27, 104, 229); margin-top: 10px;">
+                    <textarea name="textara"></textarea>
+                    <script>
+                        CKEDITOR.replace('textara');
+                    </script>
+
+                </div>
+            </div>
+            <div style=" padding-right: 0; border-left: 1px solid #ccc;" class="map col-12 col-md-5 col-xl-5">
+                <iframe style="border: none; padding-top: 2px;"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d125412.96949372212!2d106.7116815!3d10.7994154!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f1c06f4e1dd%3A0x43900f1d4539a3d!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBLaG9hIGjhu41jIFThu7Egbmhpw6puIC0gxJDhuqFpIGjhu41jIFF14buRYyBnaWEgVFAuSENN!5e0!3m2!1svi!2s!4v1660760280213!5m2!1svi!2s"
+                    width="100%" height="630" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer container-fluid">
+        <div class="row">
+            <div style=" background-color: rgb(54, 53, 53); text-align: center; font-size: 13px; padding: 10px 0;"
+                class="col-12 col-md-12 col-xl-12">
+                <p style="margin-bottom: 0; color: rgb(131, 131, 131);"> &copy; 2022 TANO.co</p>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
